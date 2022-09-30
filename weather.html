@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="CSS/weather.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>WEATHER APP FORECAST</h1>
+
+       <div class="serach-space">
+        <input type="text" id="searchBox"  placeholder="City Name"/>
+        <!-- onkeyup="dataFetching()" -->
+        <button id="searchButton">Search</button>
+       </div>
+
+        <div class="weather-contents">
+            <div class="tempContainer">
+                <h2 class="city" id="city">---</h2>
+                <h3 class="text" id="text">---</h3>
+                <div class="tem" id="temp">---</div>
+                <div class="low_tem tem" id="low_temp">---</div>
+                <div class="high_tem tem" id="high_temp">---</div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <script src="weather.js"></script>
+</body>
+</html>
